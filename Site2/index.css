@@ -1,0 +1,58 @@
+ .u-section-1 {
+  background-position: 50% 50%, 50% 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-image: url('images/pooo.png'), linear-gradient(to right, #478ac9, #db545a);
+  background-size: cover, cover;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 700px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 123px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 41px 59px 0;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 40px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
